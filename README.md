@@ -10,7 +10,7 @@ docker restart cron
 ```
 ## Tips 
 You may found that time in container is not same with your timezone.
-```
+```bash
 #use this command fix time zone problem
 docker run --name <containername> -v /etc/localtime:/etc/localtime:ro ...
 
